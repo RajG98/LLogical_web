@@ -1,0 +1,13 @@
+.aboutUs{
+  background: url(	https://static.pbcdn.in/cdn/images/home-v1/testimonial-bg.png) no-repeat center 20px;
+}
+
+.section_our_solution .row {
+  align-items: center;
+}
+.active-tab{
+  background-color: black !important;
+  color: white !important;
+}
+
+
