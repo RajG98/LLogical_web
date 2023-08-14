@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/esm/Container';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 import Contact from '../Contact us/Contact us';
-import Courses from '../Courses/Courses';
+// import Courses from '../Courses/Courses';
 import './Hero.css'
 import Landing from './Landing';
 import AboutUs from '../AboutUs/AboutUs';
@@ -13,7 +13,7 @@ import WhyUs from '../WhyUs/WhyUs';
 import JoinUs from '../Mock/JoinUs';
 export default function Hero() {
   return (
-    <section >
+    <section>
 {/* slider start */}
     <div>
         {/* <Slider/> */}
@@ -22,10 +22,10 @@ export default function Hero() {
 
 {/* hero start */}
     <div>
-      <Landing/>
+        <Landing />
      
 <Subject/>
-      <Courses/>
+      {/* <Courses/> */}
       <JoinUs/>
 {/* <WhyUs/> */}
 <AboutUs/>

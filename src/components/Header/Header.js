@@ -26,7 +26,7 @@ export default function Header() {
   const navigation = [
     { name: 'Home', href: '/', current: current === "Home" ? true : false },
     { name: 'About Us', href: '/aboutus', current: current === "About Us" ? true : false },
-    { name: 'Courses', href: '/courses', current: current === "Courses" ? true : false },
+    // { name: 'Courses', href: '/courses', current: current === "Courses" ? true : false },
     { name: 'Join Us', href: '/joinus', current: current === "Join Us" ? true : false },
     { name: 'Contact Us', href: '/contact', current: current === "Contact Us" ? true : false },
     // { name: 'Calendar', href: '#', current: false },
